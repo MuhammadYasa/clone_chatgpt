@@ -23,6 +23,8 @@ function App() {
   return (
     <div className="App">
       <div className="chat">
+        {/* melakukan percabangan untuk menentukan pesan user dan bot chatgpt di bawah {message.isUser ? "user-message" : "bot-message"}
+      ketika user message true, maka akan di tampilkan di sisi kanan, ketika false atau bot, di tampilkan di sblh kiri */}
         {messages.map((message, index) => (
           <div
             key={index}
