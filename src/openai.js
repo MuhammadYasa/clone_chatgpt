@@ -1,7 +1,7 @@
 const { Configuration, OpenAIApi } = require("openai");
 
 // api key from openai
-const API_KEY = "Masukkan API KEY mu di sini";
+const API_KEY = "Enter The api key";
 
 const configuration = new Configuration({
   apiKey: API_KEY,

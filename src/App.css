@@ -17,7 +17,7 @@
   tetapi bisa di overflow / di biarkan meluap ke atas sehingga bisa di scroll
    */
   padding: 10px;
-  width: 85%; /* posisi jarak lebar di chat */
+  width: 99%; /* posisi jarak lebar di chat */
 }
 
 .user-message {
